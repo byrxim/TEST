@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 50
+names: ['Button', 'CheckBox', 'CheckedTextView', 'EditText', 'EditText-', 'ImageButton', 'ImageView', 'ProgressBar', 'RadioButton', 'RatingBar', 'SeekBar', 'Spinner', 'Switch', 'TextView', 'Input field', 'QR code', 'USP', 'accordion', 'alert', 'badge', 'bag', 'breadcrumbs', 'card', 'carousel', 'content', 'copy', 'data feed', 'date picker', 'decoration', 'dropdown', 'footer', 'header', 'heading', 'hero image', 'icon', 'illustration', 'image', 'label', 'logo', 'navigation', 'pagination', 'placeholder', 'pop-up', 'progress bar', 'slider', 'tab', 'tag', 'title', 'tooltip', 'video']
+
+roboflow:
+  workspace: uibitz
+  project: dataset-v2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uibitz/dataset-v2/dataset/1
